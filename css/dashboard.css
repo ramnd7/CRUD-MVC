@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    padding:0;
+    background:#eef2ee;
+    font-family:Segoe UI,sans-serif;
+}
+
+.dashboard-box{
+    width:600px;
+    margin:50px auto;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.dashboard-header{
+    background:#1B4332;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+.dashboard-header h1{
+    margin:0;
+}
+
+.dashboard-header p{
+    margin-top:0px;
+    color:#d8f3dc;
+}
+
+.dashboard-content{
+    padding:0px;
+    text-align:center;
+}
+
+.subjudul{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.card{
+    width:200px;
+    margin:20px auto;
+    background:#f8f8f8;
+    border-radius:8px;
+    padding:2px;
+    box-shadow:0 3px 8px rgba(0,0,0,.08);
+}
+
+.card h2{
+    margin:10px 0;
+    color:#1B4332;
+}
+
+.menu{
+    margin-top:35px;
+}
+
+.btn{
+    display:block;
+    width:200px;
+    margin:15px auto;
+    padding:12px;
+    text-decoration:none;
+    color:white;
+    border-radius:6px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.kategori{
+    background:#1B4332;
+}
+
+.gear{
+    background:#2D6A4F;
+}
+
+.logout{
+    background:#b02a37;
+}
+
+.kategori:hover{
+    background:#2D6A4F;
+}
+
+.gear:hover{
+    background:#40916C;
+}
+
+.logout:hover{
+    background:#8b1e2b;
+}
+
+.dashboard-footer{
+    background:#1B4332;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}

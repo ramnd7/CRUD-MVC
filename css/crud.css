@@ -1,0 +1,262 @@
+body{
+    margin:0;
+    padding:0;
+    background:#eef2ee;
+    font-family:Segoe UI,sans-serif;
+}
+
+.crud-box{
+    width:95%;
+    max-width:1300px;
+    margin:35px auto;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.crud-header{
+    background:#1B4332;
+    color:white;
+    text-align:center;
+    padding:22px;
+}
+
+.crud-header h1{
+    margin:0;
+}
+
+.crud-header p{
+    margin-top:8px;
+    color:#d8f3dc;
+}
+
+.crud-content{
+    padding:25px;
+}
+
+
+
+.top-menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+
+.btn{
+    text-decoration:none;
+    color:white;
+    background:#1B4332;
+    padding:2px 12px;
+    border-radius:10px;
+    font-weight:bold;
+    transition:.3s;
+    margin-right: 20px ;
+}
+
+.btn:hover{
+    background:#2D6A4F;
+}
+
+
+
+.search{
+    display:flex;
+    gap:40px;
+}
+
+.search input{
+
+    width:240px;
+    padding:5px;
+    border:1px solid #ccc;
+    border-radius:10px;
+
+}
+
+.search button{
+
+    background:#1B4332;
+    color:white;
+    border:none;
+    padding:10px 16px;
+    border-radius:10px;
+    cursor:pointer;
+
+}
+
+
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+th{
+
+    background:#1B4332;
+    color:white;
+    padding:12px;
+
+}
+
+td{
+
+    padding:10px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+
+}
+
+tr:hover{
+
+    background:#f4f4f4;
+
+}
+
+
+
+.edit{
+
+    background:#f39c12;
+    color:white;
+    padding:6px 9px;
+    text-decoration:none;
+    border-radius:10px;
+    margin-right: 10px;
+
+}
+
+.hapus{
+
+    background:#c0392b;
+    color:white;
+    padding:6px 8px;
+    text-decoration:none;
+    border-radius:10px;
+    
+
+}
+
+
+.crud-footer{
+
+    background:#1B4332;
+    color:white;
+    text-align:center;
+    padding:15px;
+
+}
+
+
+.form-crud{
+    width:450px;
+    margin:auto;
+}
+
+.form-crud label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.form-crud input,
+.form-crud select,
+.form-crud textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    box-sizing:border-box;
+    font-size:14px;
+}
+
+.form-crud input:focus,
+.form-crud select:focus,
+.form-crud textarea:focus{
+    outline:none;
+    border-color:#1B4332;
+}
+
+.btn-simpan{
+    background:#1B4332;
+    color:white;
+    border:none;
+    padding:10px 11px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.btn-simpan:hover{
+    background:#2D6A4F;
+}
+
+.btn-kembali{
+    display:inline-block;
+    background:#6c757d;
+    color:white;
+    text-decoration:none;
+    padding:10px 11px;
+    border-radius:6px;
+    margin-left:10px;
+}
+
+.btn-kembali:hover{
+    background:#5a6268;
+}
+
+
+
+.form-crud img{
+    display:block;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ddd;
+    max-width:180px;
+}
+
+.form-crud textarea{
+    resize:vertical;
+}
+
+
+
+.pagination{
+    margin-top:25px;
+    text-align:center;
+}
+
+.pagination a,
+.pagination span{
+    display:inline-block;
+    min-width:10px;
+    padding:8px 9px;
+    margin:0 4px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    border:1px solid #1B4332;
+    transition:.2s;
+}
+
+.pagination a{
+    color:#1B4332;
+    background:#fff;
+}
+
+.pagination a:hover{
+    background:#1B4332;
+    color:#fff;
+}
+
+.pagination .aktif{
+    background:#1B4332;
+    color:#fff;
+}
